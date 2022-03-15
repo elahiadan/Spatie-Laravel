@@ -39,6 +39,7 @@
                 @role('tester|admin')
                 <a class="navbar-brand" href="{{ url('/tester') }}">Tester</a>
                 @endrole
+                <a class="navbar-brand text-danger" href="{{route('coder')}}">Coder</a>
                 @endauth
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
